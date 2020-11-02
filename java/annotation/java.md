@@ -2,6 +2,8 @@
 
 Annotation 是从 JDK5.0 开始引入的新技术
 
+使用 `@interface` 自定义注解时，自动继承 `java.lang.annotation.Annotation`
+
 ### Annotation的作用
 
 - 可以被其他程序( 编译器) 读取

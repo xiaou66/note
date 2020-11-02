@@ -59,7 +59,7 @@ Reflections reflections = new Reflections(configurationBuilder);
    
 	- 扫描方法/构造体/字段的使用情况
      (scans methods/constructors/fields usage)
-    
+   
      ```java
      Set<Member> usages = 
          reflections.getMethodUsages(Method.class)
@@ -122,7 +122,7 @@ Reflections reflections = new Reflections(configurationBuilder);
 
 8. TypeAnnotationsScanner
 
-   - 扫描注解的父注解
+   - 扫描类上的注解
      (scans for class's annotations, where @Retention(RetentionPolicy.RUNTIME))
      
      ```java
